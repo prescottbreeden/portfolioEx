@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+h1 {
+    display: inline;
+}
+h2 {
+    display: inline;
+    margin-left: 380px;
+}
+h3 {
+    background-color: rgb(121, 121, 121);
+    color: white;
+    padding: 10px;
+}
+img {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+}
+button {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+p {
+    padding: 10px;
+}
+.topbar {
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    
+}
+
+.about-block {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    vertical-align: top;
+    background: #8e9eab;  
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    margin: 20px;
+}
+
+.m-body { 
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: inline-block;
+    
+}
+.small-text {
+    font-size: 15px;
+}
+
+.block {
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    margin: 10px;
+    
+}
+.top {
+    height: 400px;
+}
+.tech_icon {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+#bottom {
+    background-color: aqua;
+}
+
+#biopic {
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+}
+
+.leftblock{
+    margin-left: 20px;
+}
